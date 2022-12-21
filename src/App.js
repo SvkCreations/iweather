@@ -23,7 +23,7 @@ function App() {
               <Hero />
               </>
             }></Route>
-            <Route path='/:q' element={
+            <Route exact path='/:q' element={
                 <WeatherByCity/>
             }></Route>
           </Routes>
