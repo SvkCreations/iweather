@@ -18,31 +18,31 @@ export default function WorldForecast() {
                         <img src={aus} alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">AUS</p>
                         <p className="text-muted pb-0 mb-0 me-auto">Sydney</p>
-                        <a href={`/iweather/q=sydney`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=sydney`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                     <div className="d-flex align-items-center gap-3 gap-md-5 mt-5">
                         <img src={usa} alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">USA</p>
                         <p className="text-muted pb-0 mb-0 me-auto">New york</p>
-                        <a href={`/iweather/q=new york`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=new york`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                     <div className="d-flex align-items-center gap-3 gap-md-5 mt-5">
                         <img src={ind} alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">IND</p>
                         <p className="text-muted pb-0 mb-0 me-auto">New Delhi</p>
-                        <a href={`/iweather/q=delhi`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=delhi`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                     <div className="d-flex align-items-center gap-3 gap-md-5 mt-5">
                         <img src={eng} alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">ENG</p>
                         <p className="text-muted pb-0 mb-0 me-auto">London</p>
-                        <a href={`/iweather/q=london`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=london`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                     <div className="d-flex align-items-center gap-3 gap-md-5 mt-5">
                         <img src={uae} alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">UAE</p>
                         <p className="text-muted pb-0 mb-0 me-auto">Dubai</p>
-                        <a href={`/iweather/q=dubai`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=dubai`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -50,31 +50,31 @@ export default function WorldForecast() {
                         <img src={china} alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">CHN</p>
                         <p className="text-muted pb-0 mb-0 me-auto">Beijing</p>
-                        <a href={`/iweather/q=beijing`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=beijing`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                     <div className="d-flex align-items-center gap-3 gap-md-5 mt-5">
                         <img src={jpn} alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">JPN</p>
                         <p className="text-muted pb-0 mb-0 me-auto">Tokyo</p>
-                        <a href={`/iweather/q=tokyo`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=tokyo`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                     <div className="d-flex align-items-center gap-3 gap-md-5 mt-5">
                         <img src='https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg' alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">FRN</p>
                         <p className="text-muted pb-0 mb-0 me-auto">Paris</p>
-                        <a href={`/iweather/q=paris`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=paris`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                     <div className="d-flex align-items-center gap-3 gap-md-5 mt-5">
                         <img src='https://www.flagcolorcodes.com/images/gif/italy.gif' alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">ITL</p>
                         <p className="text-muted pb-0 mb-0 me-auto">Milan</p>
-                        <a href={`/iweather/q=milan`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=milan`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                     <div className="d-flex align-items-center gap-3 gap-md-5 mt-5">
                         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png' alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">ESP</p>
                         <p className="text-muted pb-0 mb-0 me-auto">Madrid</p>
-                        <a href={`/iweather/q=madrid`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={`/q=madrid`}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                 </div>
             </div>

@@ -13,12 +13,17 @@ function App() {
         <div className="container p-4 p-md-0">
           <Navbar />
           <Routes>
+          <Route path='/' element={
+              <>
+              <Hero />
+              </>
+            }></Route>
             <Route path='/iweather' element={
               <>
               <Hero />
               </>
             }></Route>
-            <Route path='/iweather/:q' element={
+            <Route path='/:q' element={
                 <WeatherByCity/>
             }></Route>
           </Routes>
