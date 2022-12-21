@@ -6,6 +6,7 @@ import eng from '../flags/eng.webp'
 import uae from '../flags/uae.jpg'
 import china from '../flags/china.webp'
 import jpn from '../flags/jap.webp'
+import { Link } from 'react-router-dom';
 
 export default function WorldForecast() {
     return (
