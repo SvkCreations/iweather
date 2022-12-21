@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.323861d9.css",
-    "main.js": "/static/js/main.d8e09b0f.js",
-    "static/js/787.2cc5bf55.chunk.js": "/static/js/787.2cc5bf55.chunk.js",
-    "static/media/uae.jpg": "/static/media/uae.bdb31a529e562eeafe5b.jpg",
-    "static/media/humidity.png": "/static/media/humidity.36adc40d3d0580f6c183.png",
-    "static/media/visibility.png": "/static/media/visibility.c53d9489f524c038a857.png",
-    "static/media/usa.webp": "/static/media/usa.e79206f62a4f7e675a5d.webp",
-    "static/media/india.webp": "/static/media/india.087fabcdadd3145eff8b.webp",
-    "static/media/china.webp": "/static/media/china.f8203c9a996f205ade7c.webp",
-    "static/media/jap.webp": "/static/media/jap.1bedcfac2f07e72e8fab.webp",
-    "static/media/eng.webp": "/static/media/eng.189fa7f12d8c4b914874.webp",
-    "static/media/aus.svg": "/static/media/aus.ecce2f446d87cccba320718e6642e34a.svg",
-    "index.html": "/index.html",
-    "main.323861d9.css.map": "/static/css/main.323861d9.css.map",
-    "main.d8e09b0f.js.map": "/static/js/main.d8e09b0f.js.map",
-    "787.2cc5bf55.chunk.js.map": "/static/js/787.2cc5bf55.chunk.js.map"
+    "main.css": "/iweahter/static/css/main.323861d9.css",
+    "main.js": "/iweahter/static/js/main.9c494637.js",
+    "static/js/787.2cc5bf55.chunk.js": "/iweahter/static/js/787.2cc5bf55.chunk.js",
+    "static/media/uae.jpg": "/iweahter/static/media/uae.bdb31a529e562eeafe5b.jpg",
+    "static/media/humidity.png": "/iweahter/static/media/humidity.36adc40d3d0580f6c183.png",
+    "static/media/visibility.png": "/iweahter/static/media/visibility.c53d9489f524c038a857.png",
+    "static/media/usa.webp": "/iweahter/static/media/usa.e79206f62a4f7e675a5d.webp",
+    "static/media/india.webp": "/iweahter/static/media/india.087fabcdadd3145eff8b.webp",
+    "static/media/china.webp": "/iweahter/static/media/china.f8203c9a996f205ade7c.webp",
+    "static/media/jap.webp": "/iweahter/static/media/jap.1bedcfac2f07e72e8fab.webp",
+    "static/media/eng.webp": "/iweahter/static/media/eng.189fa7f12d8c4b914874.webp",
+    "static/media/aus.svg": "/iweahter/static/media/aus.ecce2f446d87cccba320718e6642e34a.svg",
+    "index.html": "/iweahter/index.html",
+    "main.323861d9.css.map": "/iweahter/static/css/main.323861d9.css.map",
+    "main.9c494637.js.map": "/iweahter/static/js/main.9c494637.js.map",
+    "787.2cc5bf55.chunk.js.map": "/iweahter/static/js/787.2cc5bf55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.323861d9.css",
-    "static/js/main.d8e09b0f.js"
+    "static/js/main.9c494637.js"
   ]
 }
