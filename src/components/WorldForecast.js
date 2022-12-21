@@ -18,7 +18,7 @@ export default function WorldForecast() {
                         <img src={aus} alt="" className="img-fluid" width='30' />
                         <p className="fw-bold pb-0 mb-0">AUS</p>
                         <p className="text-muted pb-0 mb-0 me-auto">Sydney</p>
-                        <a href='q=sydney'><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
+                        <a href={'/q=sydney'}><iconify-icon icon="material-symbols:arrow-outward-rounded" style={{fontSize:'22px'}}></iconify-icon></a>
                     </div>
                     <div className="d-flex align-items-center gap-3 gap-md-5 mt-5">
                         <img src={usa} alt="" className="img-fluid" width='30' />
