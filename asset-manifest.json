@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/iweather/static/css/main.323861d9.css",
-    "main.js": "/iweather/static/js/main.e54ec056.js",
-    "static/js/787.2cc5bf55.chunk.js": "/iweather/static/js/787.2cc5bf55.chunk.js",
-    "static/media/uae.jpg": "/iweather/static/media/uae.bdb31a529e562eeafe5b.jpg",
-    "static/media/humidity.png": "/iweather/static/media/humidity.36adc40d3d0580f6c183.png",
-    "static/media/visibility.png": "/iweather/static/media/visibility.c53d9489f524c038a857.png",
-    "static/media/usa.webp": "/iweather/static/media/usa.e79206f62a4f7e675a5d.webp",
-    "static/media/india.webp": "/iweather/static/media/india.087fabcdadd3145eff8b.webp",
-    "static/media/china.webp": "/iweather/static/media/china.f8203c9a996f205ade7c.webp",
-    "static/media/jap.webp": "/iweather/static/media/jap.1bedcfac2f07e72e8fab.webp",
-    "static/media/eng.webp": "/iweather/static/media/eng.189fa7f12d8c4b914874.webp",
-    "static/media/aus.svg": "/iweather/static/media/aus.ecce2f446d87cccba320718e6642e34a.svg",
-    "index.html": "/iweather/index.html",
-    "main.323861d9.css.map": "/iweather/static/css/main.323861d9.css.map",
-    "main.e54ec056.js.map": "/iweather/static/js/main.e54ec056.js.map",
-    "787.2cc5bf55.chunk.js.map": "/iweather/static/js/787.2cc5bf55.chunk.js.map"
+    "main.css": "/static/css/main.323861d9.css",
+    "main.js": "/static/js/main.08ef2c12.js",
+    "static/js/787.2cc5bf55.chunk.js": "/static/js/787.2cc5bf55.chunk.js",
+    "static/media/uae.jpg": "/static/media/uae.bdb31a529e562eeafe5b.jpg",
+    "static/media/humidity.png": "/static/media/humidity.36adc40d3d0580f6c183.png",
+    "static/media/visibility.png": "/static/media/visibility.c53d9489f524c038a857.png",
+    "static/media/usa.webp": "/static/media/usa.e79206f62a4f7e675a5d.webp",
+    "static/media/india.webp": "/static/media/india.087fabcdadd3145eff8b.webp",
+    "static/media/china.webp": "/static/media/china.f8203c9a996f205ade7c.webp",
+    "static/media/jap.webp": "/static/media/jap.1bedcfac2f07e72e8fab.webp",
+    "static/media/eng.webp": "/static/media/eng.189fa7f12d8c4b914874.webp",
+    "static/media/aus.svg": "/static/media/aus.ecce2f446d87cccba320718e6642e34a.svg",
+    "index.html": "/index.html",
+    "main.323861d9.css.map": "/static/css/main.323861d9.css.map",
+    "main.08ef2c12.js.map": "/static/js/main.08ef2c12.js.map",
+    "787.2cc5bf55.chunk.js.map": "/static/js/787.2cc5bf55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.323861d9.css",
-    "static/js/main.e54ec056.js"
+    "static/js/main.08ef2c12.js"
   ]
 }
