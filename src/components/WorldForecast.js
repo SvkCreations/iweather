@@ -13,8 +13,7 @@ export default function WorldForecast() {
         window.scrollTo(0,0)
     }
     return (
-        <div className='my-5'>
-            <hr></hr>
+        <div className='my-5' id='global'>
             <h2 className="display-6 fw-bold pt-5 pb-3">World Forecast</h2>
             <div className="row d-flex gap-5 gap-md-0">
                 <div className="col-md-5 me-auto">

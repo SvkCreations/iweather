@@ -4,6 +4,9 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WeatherByCity from './components/WeatherByCity';
 import WorldForecast from './components/WorldForecast';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -28,6 +31,9 @@ function App() {
             }></Route>
           </Routes>
           <WorldForecast/>
+          <About/>
+          <Contact/>
+          <Footer/>
         </div>
       </div>
     </Router>

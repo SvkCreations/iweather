@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 export default function Navbar() {
   return (
@@ -16,13 +17,13 @@ export default function Navbar() {
           <Link className="nav-link active" aria-current="page" to="/iweather">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Global</a>
+          <HashLink className="nav-link" to="#global">Global</HashLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href='/'>About</a>
+          <HashLink className="nav-link" to='#about'>About</HashLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href='/'>Contact</a>
+          <HashLink className="nav-link" to='#contact'>Contact</HashLink>
         </li>
       </ul>
     </div>
