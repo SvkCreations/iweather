@@ -15,7 +15,7 @@ export default function Hero() {
     }
    
     return (
-        <div className='mt-5'>
+        <div className='mt-3 mt-md-5'>
             <div className="row featurette d-flex align-items-center gap-4 gap-md-0">
                 <div className="col-md-7">
                     <h2 className="featurette-heading fw-bold display-5 col-12 col-md-10">We provide you a World wide Weather Forecast</h2>

@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link'
 
 export default function Navbar() {
   return (
-    <div className='mt-3'>
+    <div className='mt-2 mt-md-3'>
       <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
     <Link className="navbar-brand display-6 text-primary fw-bold" to="/iweather">iWeather</Link>

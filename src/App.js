@@ -17,12 +17,12 @@ function App() {
         <div className="container p-4 p-md-0">
           <Navbar />
           <Routes>
-          <Route path='/' element={
+          <Route exact path='/' element={
               <>
               <Hero />
               </>
             }></Route>
-            <Route path='/iweather' element={
+            <Route exact path='/iweather' element={
               <>
               <Hero />
               </>

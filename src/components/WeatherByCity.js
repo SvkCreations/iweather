@@ -71,7 +71,7 @@ export default function WeatherByCity() {
                                 <div className='row d-flex align-items-center' key={wt.id}>
                                     <div className="col-auto">
                                         {/* <iconify-icon icon="uil:plane-fly" style={{ fontSize: '30px' }}></iconify-icon> */}
-                                        <img crossOrigin="anonymous" width='40' src={`https://countryflagsapi.com/png/${wt.sys.country.toLowerCase()}`} alt="flag" />
+                                        <img crossOrigin="anonymous" width='35' src={`https://countryflagsapi.com/png/${wt.sys.country.toLowerCase()}`} alt="flag" />
                                     </div>
                                     <div className="col-auto p-0 m-0 me-auto">
                                         <p className="lead text-primary pt-0 m-0">{wt.name}, {wt.sys.country}</p>
