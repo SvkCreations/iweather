@@ -106,7 +106,7 @@ export default function WeatherByCity() {
                                 <p className="lead text-primary pt-0 pb-2 m-0">{wt.name}, {wt.sys.country}</p>
                             </div>
                             <div className="col-auto">
-                                <p>{timeConverter(wt.dt)}</p>
+                                <p>As of {timeConverter(wt.dt)}</p>
                             </div>
                         </div>
                         <div className="row d-flex align-items-center m-0 p-3 rounded" style={{ backgroundColor: '#d6f3fc' }}>
