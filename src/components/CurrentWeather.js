@@ -2,59 +2,11 @@ import React, { useEffect, useState } from 'react';
 import wsicon from '../windspeed.png';
 import visicon from '../visibility.png';
 import humicon from '../humidity.png';
+import Loading from './Loading';
+
 export default function CurrentWeather() {
     const [state, setState] = useState({
-        data: [{
-            "coord": {
-                "lon": 10.99,
-                "lat": 44.34
-            },
-            "weather": [
-                {
-                    "id": 501,
-                    "main": "Rain",
-                    "description": "moderate rain",
-                    "icon": "10d"
-                }
-            ],
-            "base": "stations",
-            "main": {
-                "temp": 298.48,
-                "feels_like": 298.74,
-                "temp_min": 297.56,
-                "temp_max": 300.05,
-                "pressure": 1015,
-                "humidity": 64,
-                "sea_level": 1015,
-                "grnd_level": 933
-            },
-            "visibility": 10000,
-            "wind": {
-                "speed": 0.62,
-                "deg": 349,
-                "gust": 1.18
-            },
-            "rain": {
-                "1h": 3.16
-            },
-            "clouds": {
-                "all": 100
-            },
-            "dt": 1661870592,
-            "sys": {
-                "type": 2,
-                "id": 2075663,
-                "country": "IT",
-                "sunrise": 1661834187,
-                "sunset": 1661882248
-            },
-            "timezone": 7200,
-            "id": 3163858,
-            "name": "Zocca",
-            "cod": 200
-        }
-
-        ],
+        data: [],
         loading: true
     })
     const apiKey = '4212d24e9774fbfd9a59d2da3e816ae2';
@@ -88,10 +40,11 @@ export default function CurrentWeather() {
     }, [])
     return (
         <div className="App">
+            {state.loading && <Loading/>}
             {state.data.map((wt) => {
                 return (
-                    <>
-                        <div className='row d-flex align-items-center' key={wt.id}>
+                    <div key={wt.id}>
+                        <div className='row d-flex align-items-center'>
                             <div className="col-auto text-primary">
                                 <iconify-icon icon="material-symbols:location-on-outline-rounded" style={{ fontSize: '30px' }}></iconify-icon>
                             </div>
@@ -99,10 +52,11 @@ export default function CurrentWeather() {
                                 <p className="lead text-primary pt-0 pb-2 m-0">{wt.name}, {wt.sys.country}</p>
                             </div>
                             <div className="col-auto">
-                                <p>As of {timeConverter(wt.dt)}</p>
+                                <p className='pt-2'>As of {timeConverter(wt.dt)}</p>
                             </div>
                         </div>
                         <div className="row d-flex align-items-center m-0 p-3 rounded" style={{ backgroundColor: '#d6f3fc' }}>
+                            
                             <div className="col-8">
                                 <h1 className="display-1 fw-bold pb-0 mb-0">{Math.round(wt.main.temp)} &#8451;</h1>
                                 <p className='pb-2 mb-0'>Feels like: {Math.round(wt.main.feels_like)} &#8451;</p>
@@ -127,7 +81,7 @@ export default function CurrentWeather() {
                         </div>
 
 
-                    </>
+                    </div>
                 )
             })}
 
