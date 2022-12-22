@@ -87,7 +87,7 @@ export default function WeatherByCity() {
             })
         }
         fetchData()
-    }, [])
+    }, [q])
     return (
         <div className='mt-5'>
             <div className="row featurette d-flex align-items-center gap-4 gap-md-0">
