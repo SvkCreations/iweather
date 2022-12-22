@@ -24,15 +24,21 @@ export default function WeatherByCity() {
     }
     const apiKey = '4212d24e9774fbfd9a59d2da3e816ae2';
     let timeConverter = (UNIX_timestamp) => {
+        var time = ''
         var a = new Date(UNIX_timestamp * 1000);
         var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-        var year = a.getFullYear();
-        var month = months[a.getMonth()];
-        var date = a.getDate();
+        // var year = a.getFullYear();
+        // var month = months[a.getMonth()];
+        // var date = a.getDate();
         var hour = a.getHours();
         var min = a.getMinutes();
-        var sec = a.getSeconds();
-        var time = hour + ':' + min + ' hrs'
+        // var sec = a.getSeconds();
+        if (min.toString().length > 1) {
+            time = hour + ':' + min + ' hrs'
+        }
+        else {
+            time = hour + ':0' + min + ' hrs'
+        }
         return time;
     }
     useEffect(() => {

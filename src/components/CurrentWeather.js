@@ -11,6 +11,7 @@ export default function CurrentWeather() {
     })
     const apiKey = '4212d24e9774fbfd9a59d2da3e816ae2';
     let timeConverter = (UNIX_timestamp) => {
+        var time = ''
         var a = new Date(UNIX_timestamp * 1000);
         var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
         var year = a.getFullYear();
@@ -19,7 +20,12 @@ export default function CurrentWeather() {
         var hour = a.getHours();
         var min = a.getMinutes();
         var sec = a.getSeconds();
-        var time = hour + ':' + min + ' hrs'
+        if (min.toString().length > 1) {
+            time = hour + ':' + min + ' hrs'
+        }
+        else {
+            time = hour + ':0' + min + ' hrs'
+        }
         return time;
     }
     useEffect(() => {
@@ -40,7 +46,7 @@ export default function CurrentWeather() {
     }, [])
     return (
         <div className="App">
-            {state.loading && <Loading/>}
+            {state.loading && <Loading />}
             {state.data.map((wt) => {
                 return (
                     <div key={wt.id}>
@@ -56,7 +62,7 @@ export default function CurrentWeather() {
                             </div>
                         </div>
                         <div className="row d-flex align-items-center m-0 p-3 rounded" style={{ backgroundColor: '#d6f3fc' }}>
-                            
+
                             <div className="col-8">
                                 <h1 className="display-1 fw-bold pb-0 mb-0">{Math.round(wt.main.temp)} &#8451;</h1>
                                 <p className='pb-2 mb-0'>Feels like: {Math.round(wt.main.feels_like)} &#8451;</p>
