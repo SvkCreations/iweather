@@ -7,6 +7,7 @@ import WorldForecast from './components/WorldForecast';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ErrorPage from './components/ErrorPage';
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
             }></Route>
             <Route exact path='/:q' element={
                 <WeatherByCity/>
+            }></Route>
+            <Route path='*' element={
+                <ErrorPage/>
             }></Route>
           </Routes>
           <WorldForecast/>
